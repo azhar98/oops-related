@@ -3,7 +3,6 @@ package forlooprelated;
 import java.util.LinkedHashMap;
 
 public class FLR6 {
-
     public static void initMsg() {
         LinkedHashMap<Character,Integer> linkedHashMap = new LinkedHashMap<>();
         String name="javaconceptoftheday";
@@ -24,7 +23,7 @@ public class FLR6 {
                stl = linkedHashMap.size();
            }
        }
-
+        System.out.println("test");
         System.out.println(subStr);
         System.out.println(stl);
 
